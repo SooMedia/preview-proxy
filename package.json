@@ -1,0 +1,30 @@
+{
+  "name": "preview-proxy",
+  "version": "1.0.0",
+  "description": "Website previewer proxy which lets you preview websites for which the domains are not under your control.",
+  "main": "app.js",
+  "dependencies": {
+    "bl": "^0.9.4",
+    "clone": "^1.0.0",
+    "cheerio": "^0.18.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SooMedia/preview-proxy"
+  },
+  "keywords": [
+    "proxy",
+    "preview",
+    "http"
+  ],
+  "author": "Willem Oostendorp",
+  "license": "GPL-V2",
+  "bugs": {
+    "url": "https://github.com/SooMedia/preview-proxy/issues"
+  },
+  "homepage": "https://github.com/SooMedia/preview-proxy"
+}
