@@ -14,6 +14,10 @@ Following the client's request, the app will make it's own request to the client
 
 ## Installation
 
+Just run `npm install` to install the dependencies.
+
+## Running the app
+
 To be able to run the app, make sure you put it somewhere you can use your browser to view it. After that you have to copy the `./config/config.local.js.dist` file to `./config/config.local.js` and the `./config/customers.local.js.dist` to `./config/customers.local.js`. When that's done you can change the files to suit your fancy.
 
 ### config.local.js:
@@ -55,9 +59,7 @@ The app has the following dependencies:
  - [url](http://nodejs.org/api/url.html);
  - [bl](https://www.npmjs.com/package/bl);
  - [clone](https://www.npmjs.com/package/clone);
- - [contextify](https://www.npmjs.com/package/contextify);
- - [jquery](https://www.npmjs.com/package/jquery);
- - [jsdom](https://www.npmjs.com/package/jsdom).
+ - [cheerio](https://www.npmjs.com/package/cheerio).
 
 All the dependencies are included in the repository.
 
