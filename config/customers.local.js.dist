@@ -1,0 +1,14 @@
+/*
+ * Local config file
+ *
+ * This config file is used to list all the customers and their websites. Copy
+ * this file without the .dist extension and populate it with all the customer
+ * websites you want to be able to preview.
+ */
+module.exports = {
+    'customer': {
+        'host': '1.1.1.1',
+        'port': 80,
+        'hostname': 'example.org'
+    }
+};

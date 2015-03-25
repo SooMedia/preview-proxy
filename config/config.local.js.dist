@@ -1,0 +1,22 @@
+/*
+ * Local config file
+ * 
+ * This config file will override the values set in config.global.js and can
+ * be used to store sensitive information since it's ignored by Git.
+ * To use this file copy this file without the .dist extension and populate
+ * the values where needed.
+ */
+var config = require('./config.global');
+
+config.host = 'preview.example.org';
+config.port = 8080;
+config.hostname = config.host+':'+config.port;
+config.protocol = 'https';
+config.url = config.protocol+'://'+config.hostname;
+config.ssl = {
+    key: '/location/of/the/ssl/keyfile.key',
+    cert: '/location/of/the/ssl/certificate.crt',
+    ca: '/location/of/the/ssl/ca-bundle.crt'
+};
+
+module.exports = config;
